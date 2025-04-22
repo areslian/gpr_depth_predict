@@ -17,57 +17,42 @@ This project implements Gaussian Process Regression (GPR) to predict hardness di
 - Hyperparameter optimization using dual annealing
 - Model evaluation with mean squared error (MSE)
 
-Usage
-Launch Jupyter Notebook:
-BASH
-jupyter notebook
-Open gpr_418.ipynb
-
-Run cells sequentially to:
-
-Load and preprocess data
-Train the GPR model
-Visualize results
-Evaluate performance
-Data Format
+## Data Format
 Input data should be in Excel format with sheets for each plate containing:
+- X/Y coordinates in first row/column
+- Hardness values (in percentage) in matrix format
 
-X/Y coordinates in first row/column
-Hardness values (in percentage) in matrix format
 Example structure:
+   X1    X2    X3
+Y1 0.23 0.25 0.27
+Y2 0.24 0.26 0.28
 
-TEXT
-       X1    X2    X3
-Y1   0.23  0.25  0.27
-Y2   0.24  0.26  0.28
-Methodology
-Data Transformation:
 
-Hardness values converted using:
-δ = 0.67*exp(-H/0.11) - 1.49e-5*exp(H/0.10) + 0.33
-Min-max normalization
-Model Architecture:
+## Methodology
+### Data Transformation:
+- Hardness values converted using:  
+  `δ = 0.67*exp(-H/0.11) - 1.49e-5*exp(H/0.10) + 0.33`
+- Min-max normalization
 
-Gaussian Process with RBF kernel
-Optimized using dual annealing
-Evaluation:
+### Model Architecture:
+- Gaussian Process with RBF kernel
+- Optimized using dual annealing
 
-Mean Squared Error (MSE)
-Visual inspection of predictions
-Visualization
+### Evaluation:
+- Mean Squared Error (MSE)
+- Visual inspection of predictions
+
+## Visualization
 The notebook includes:
+- Raw data distribution plots
+- 3D surface plots of hardness patterns
+- Comparison between actual and predicted values
+- Error analysis visualizations
 
-Raw data distribution plots
-3D surface plots of hardness patterns
-Comparison between actual and predicted values
-Error analysis visualizations
-Results
+## Results
 Key performance metrics:
+- MSE: [Your MSE Value]
+- Training time: [Your Training Time]
 
-MSE: [Your MSE Value]
-Training time: [Your Training Time]
-Sample prediction visualization:
-Prediction Visualization
-
-Contributing
-Contributions are welcome! Please:
+Sample prediction visualization:  
+![Prediction Visualization](images/prediction_example.png)
