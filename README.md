@@ -23,12 +23,12 @@ Input data should be in Excel format with sheets for each plate containing:
 - Hardness values (in percentage) in matrix format
 
 Example structure:
-''''TEXT
+<pre>
        X1    X2    X3
 Y1   0.23  0.25  0.27
 Y2   0.24  0.26  0.28
+</pre>
 
-''''
 
 
 ## Methodology
