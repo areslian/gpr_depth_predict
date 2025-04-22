@@ -1,11 +1,10 @@
-# Gaussian Process Regression for Material Hardness Prediction
+# Gaussian Process Regression for Lightning-induced Damage Depth Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0%2B-orange)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red)
 
-This project implements Gaussian Process Regression (GPR) to predict hardness distribution patterns across steel plates using experimental measurement data.
-
+This project employs Gaussian Process Regression (GPR) to predict lightning-induced damage depth in steel plates based on hardness measurement data. The model establishes a probabilistic relationship between hardness variations and the spatial distribution of lightning strike damage, enabling accurate depth estimation.
 ## Features
 
 - Complete GPR pipeline from raw data to predictions
