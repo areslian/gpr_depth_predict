@@ -53,8 +53,8 @@ The notebook includes:
 
 ## Results
 Key performance metrics:
-- NMSE: [Your NMSE Value]
-- Mean Absolute Error : [Your Mean Absolute Error]
+- NMSE
+- Mean Absolute Error(MAE)
 
 Sample prediction visualization:  
 ![Prediction Visualization](images/prediction_example.png)
