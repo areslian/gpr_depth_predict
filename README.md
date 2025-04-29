@@ -1,4 +1,4 @@
-# Gaussian Process Regression for Lightning-induced Damage Depth Prediction
+# Gaussian Process Regression for Lightning-induced Damage Depth Prediction(Supplemental information of the paper entitled "Prediction of Residual Stiffness of CFRP Laminate after Lightning Strike: A Novel Hardness-Based Approach")
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0%2B-orange)
