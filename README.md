@@ -4,7 +4,7 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0%2B-orange)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red)
 
-This project employs Gaussian Process Regression (GPR) to predict lightning-induced damage depth in composite plates based on hardness measurement data. The model establishes a probabilistic relationship between hardness variations and the spatial distribution of lightning strike damage, enabling accurate damege depth estimation.
+This project employs Gaussian Process Regression (GPR) to predict lightning-induced damage depth in composite plates based on hardness measurement data. The model establishes a probabilistic relationship between hardness variations and the spatial distribution of lightning strike damage, enabling accurate damage depth estimation.
 ## Features
 
 - Complete GPR pipeline from raw data to predictions
